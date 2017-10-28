@@ -9,7 +9,10 @@
       <video-player><h5><em>videoPlayer</em> component goes here</h5></video-player>
     </div>
     <div class="col-md-5">
-      <video-list><h5><em>videoList</em> component goes here</h5></video-list>
+      <video-list 
+        on-click="$ctrl.onClick"
+        videos="$ctrl.videos"
+      ><h5><em>videoList</em> component goes here</h5></video-list>
     </div>
   <div>
 </div>
