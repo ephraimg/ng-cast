@@ -2,7 +2,7 @@ angular.module('video-player')
   .component('videoList', {
     bindings: {
       onClick: '<',
-      videos: '<'
+      videos: '<',
     },
     controller: function() {
     },
