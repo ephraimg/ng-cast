@@ -1,0 +1,9 @@
+<div class="video-player" ng-if="$ctrl.video.id">
+  <div class="video-player-details">
+    <h4>Video Details</h3>
+    <div ng-repeat="(key, value) in $ctrl.details">{{key}}: {{value}}</div>
+  </div>
+</div>
+<div ng-if="!$ctrl.video">
+  Loading video details...
+</div>

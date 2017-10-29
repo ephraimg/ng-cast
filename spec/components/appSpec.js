@@ -25,6 +25,8 @@ describe('app', function() {
   }));
 
   it('should have a selectVideo function on the scope', function() {
+    console.log('element: ', element);
+    console.log('element.isolateScope()', element.isolateScope());
     expect(element.isolateScope().$ctrl.selectVideo).to.exist;
     expect(element.isolateScope().$ctrl.selectVideo).to.be.a('function');
   });
